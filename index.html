@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Wrapped-Emanuele li vecchi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-b from-blue-900 to-black text-white min-h-screen">
+    <div id="hero" class="h-screen flex flex-col justify-center items-center text-center px-4">
+        <h1 id="main-title" class="text-4xl md:text-6xl font-bold mb-4 opacity-0 transition-all duration-1000">
+            Quest'anno hai realizzato vari siti 
+        </h1>
+        <p id="subtitle" class="text-2xl md:text-3xl mb-8 opacity-0 transition-all duration-1000">
+            Ma solo 3 sono stati i migliori
+        </p>
+        
+        <button 
+            id="discover-btn" 
+            class="hidden bg-green-500 text-white px-6 py-3 rounded-full text-lg md:text-xl hover:bg-green-600 transition-all"
+            onclick="scrollToSites()"
+        >
+            Scopri quali!
+        </button>
+    </div>
+    <div id="sites-section" class="container mx-auto px-4 py-16">
+        <!-- Sito 1 -->
+        <div class="flex flex-col md:flex-row items-center mb-16">
+            <div class="w-full md:w-1/2 p-4">
+                <video 
+                    src="./replicanetflix.mp4" 
+                    controls 
+                    class="rounded-lg shadow-2xl w-full"
+                ></video>
+                <div 
+                    class="mt-4 flex items-center text-lg md:text-xl cursor-pointer hover:text-green-400 transition-all"
+                    onclick="window.open('./Netflix/index.html')"
+                >
+                    <i class="ri-eye-line mr-2"></i> Guarda questo sito
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Interfaccia Netflix</h2>
+                <p class="text-base md:text-xl">
+                    <span style="color: white;">A <b>Febbraio 2024</b></span> hai realizzato un sito che replica fedelmente la pagina di log-in di Netflix, curando ogni dettaglio del design e della funzionalità.  
+                    Il sito presenta un'interfaccia minimalista, con uno sfondo  che richiama lo stile originale, un form centrale per l'accesso con campi dedicati a e-mail e password, e un pulsante "Accedi" di colore rosso intenso.  
+                    Hai incluso anche link secondari per il recupero della password e la registrazione, per un'esperienza simile a quella reale. Il progetto è responsive, garantendo una visualizzazione ottimale su dispositivi mobili e desktop.  
+                    <br><br>
+                    🎬 *Un clone Netflix che farebbe invidia al design team originale!*
+                </p>
+            </div>
+            
+        </div>
+
+        <!-- Sito 2 -->
+        <div class="flex flex-col md:flex-row-reverse items-center mb-16">
+            <div class="w-full md:w-1/2 p-4">
+                <video 
+                    src="./portfolio1.mp4" 
+                    controls 
+                    class="rounded-lg shadow-2xl w-full"
+                ></video>
+                <div 
+                    class="mt-4 flex items-center text-lg md:text-xl cursor-pointer hover:text-green-400 transition-all"
+                    onclick="window.open('./Portfolio/index.html')"
+                >
+                    <i class="ri-eye-line mr-2"></i> Guarda questo sito
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Portfolio Interattivo</h2>
+                <p class="text-base md:text-xl">
+                    <span style="color: white;">A <b>Maggio 2024</b></span> hai realizzato un sito portfolio che racchiude tutti gli argomenti svolti durante i percorsi PCTO del terzo e quarto anno, con l'intenzione di aggiungere quelli del quinto anno appena verranno affrontati.  
+                    Il sito include una time-line  che mostra le date delle attività e delle uscite svolte, fornendo un quadro chiaro del tuo percorso formativo.  
+            
+                    Un'altra sezione chiave è il diario digitale, progettato come un libro interattivo che si apre, rivelando tutte le tue informazioni personali, esperienze e riflessioni legate al PCTO. Questo approccio non solo organizza i contenuti in modo professionale, ma aggiunge un elemento visivo e coinvolgente al portfolio.  
+                    <br><br>
+                    🎉 *Un Sito che merita un posto in prima fila!*
+                </p>
+            </div>
+            
+        </div>
+    <div id="sites-section" class="container mx-auto px-4 py-16">
+        <!-- Sito 3 -->
+        <div class="flex flex-col md:flex-row items-center mb-16">
+            <div class="w-full md:w-1/2 p-4">
+                <video 
+                    src="./flutter.mp4" 
+                    controls 
+                    class="rounded-lg shadow-2xl w-full max-h-[75vh]"
+                ></video>
+                <div 
+                    class="mt-4 flex items-center text-lg md:text-xl cursor-pointer hover:text-green-400 transition-all"
+                    onclick="window.open('https://app.flutterflow.io/share/esoticprove-bt856s ')"
+                >
+                    <i class="ri-eye-line mr-2"></i> Guarda questo sito
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">App di cucina</h2>
+                <p class="text-base md:text-xl">
+                    <span style="color: white;">A <b>Novembre 2024</b></span> hai sviluppato un'app di cucina utilizzando FlutterFlow durante i corsi extracurriculari.  
+                    L'app permette agli utenti di effettuare il login per accedere a tutte le funzionalità. Una volta entrati, viene presentata una chat interattiva con un bot virtuale, progettata per offrire assistenza e rispondere alle domande degli utenti.  
+            
+                    L'app include un'area dedicata ai menu, dove è possibile esplorare l'offerta di pizze e pasta. Ogni piatto è corredato da titolo, prezzo, recensioni e una breve descrizione, rendendo semplice e intuitiva la scelta per l'utente.  
+                    Questo progetto ha rappresentato un'ottima occasione per applicare e migliorare le tue competenze nello sviluppo di app e nell'interfaccia utente.  
+                    <br><br>
+                    🍕 *Un capolavoro che merita una stella Michelin virtuale!*
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    <div id="closing-section" class="h-screen flex flex-col justify-center items-center text-center px-4">
+        <h1 id="closing-title" class="text-4xl md:text-6xl font-bold mb-4 opacity-0 transition-all duration-1000">
+            Per quest'anno è tutto, 
+        </h1>
+        <p id="closing-subtitle" class="text-2xl md:text-3xl mb-8 opacity-0 transition-all duration-1000">
+            Ritorna l'anno prossimo!
+        </p>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                document.getElementById('main-title').classList.remove('opacity-0');
+                
+                setTimeout(() => {
+                    document.getElementById('subtitle').classList.remove('opacity-0');
+                    
+                    setTimeout(() => {
+                        document.getElementById('discover-btn').classList.remove('hidden');
+                    }, 500);
+                }, 500);
+            }, 500);
+
+            // Add event listener to show closing section after scrolling through sites
+            document.getElementById('sites-section').addEventListener('scroll', () => {
+                const sitesSection = document.getElementById('sites-section');
+                if (sitesSection.scrollTop + sitesSection.clientHeight >= sitesSection.scrollHeight) {
+                    showClosingSection();
+                }
+            });
+
+            // Alternative method to show closing section
+            window.addEventListener('scroll', () => {
+                const sitesSection = document.getElementById('sites-section');
+                const sitesBottom = sitesSection.getBoundingClientRect().bottom;
+                
+                if (sitesBottom <= window.innerHeight) {
+                    showClosingSection();
+                }
+            });
+        });
+
+        function scrollToSites() {
+            document.getElementById('sites-section').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function showClosingSection() {
+            setTimeout(() => {
+                document.getElementById('closing-title').classList.remove('opacity-0');
+                
+                setTimeout(() => {
+                    document.getElementById('closing-subtitle').classList.remove('opacity-0');
+                }, 500);
+            }, 500);
+        }
+    </script>
+</body>
+</html>
